@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
+ * Start Bootstrap - Agnecy Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
@@ -23,11 +23,4 @@ $('body').scrollspy({
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
-});
-
-// Closes the Responsive Menu on Click outside Menu
-$('body > *').not('nav').click(function() {
-    if(!$('button.navbar-toggle').hasClass('collapsed')) {
-        $('.navbar-toggle:visible').click();
-    }
 });
